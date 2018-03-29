@@ -20,7 +20,7 @@
 						"type":"do_ALayout",
 						"views":[
 							{
-								"templates":"templates\tsource://view/news/newsTypeGridTemplate.ui",
+								"templates":"source://view/news/newsTypeGridTemplate.ui",
 								"width":"730",
 								"id":"do_GridView_types",
 								"type":"do_GridView",

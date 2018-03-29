@@ -1,0 +1,35 @@
+{
+	"RootView":{
+		"x":"0",
+		"width":"750",
+		"y":"0",
+		"type":"do_ALayout",
+		"views":[
+			{
+				"width":"750",
+				"id":"do_ALayout_root",
+				"type":"do_ALayout",
+				"views":[
+					{
+						"looping":"true",
+						"templates":"source://view/news/newsShowTemplate.ui",
+						"width":"750",
+						"id":"do_SlideView_news",
+						"type":"do_SlideView",
+						"height":"375"
+					},
+					{
+						"bgColor":"DADADAFF",
+						"width":"750",
+						"y":"375",
+						"id":"do_ALayout_line",
+						"type":"do_ALayout",
+						"height":"1"
+					}
+				],
+				"height":"375"
+			}
+		],
+		"height":"1334"
+	}
+}

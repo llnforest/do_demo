@@ -26,7 +26,7 @@ for(var i = 1;i <= 5; i++){
 //定义收起UI的动画
 var animHide = mm("do_Animator");
 for(var i =1;i <= 5; i++){
-	animHide.appden(15,{
+	animHide.append(15,{
 		height:parseInt(totalHeight - totalHeight/5 *i)
 	})
 }

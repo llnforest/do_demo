@@ -7,7 +7,7 @@
 		"views":[
 			{
 				"width":"750",
-				"id":"do_ALayout_main",
+				"id":"do_ALayout_root",
 				"type":"do_ALayout",
 				"views":[
 					{

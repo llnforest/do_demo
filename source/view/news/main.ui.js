@@ -11,7 +11,6 @@ var do_App = sm("do_App");
 var do_Page = sm("do_Page");
 //声明UI变量
 var do_ALayout_root=ui("do_ALayout_root");
-var do_ALayout_main = ui("do_ALayout_main");
 var do_ALayout_allTypes = ui("do_ALayout_allTypes");
 var do_SegmentView_tabs = ui("do_SegmentView_tabs");
 var do_SlideView_news = ui("do_SlideView_news");

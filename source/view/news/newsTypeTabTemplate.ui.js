@@ -20,7 +20,7 @@ root.setMapping({
 //订阅每次绑定数据后的事件
 root.on("dataRefreshed",function(){
 	var _selected = do_Label_title.tag;
-	if(__selected == "1"){
+	if(_selected == "1"){
 		do_Label_title.fontColor = "ff6666ff";
 		do_Label_title.fontSize = 38;
 	}else{

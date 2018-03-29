@@ -89,7 +89,7 @@ do_ViewShower_main.showView("news");
 
 //订阅android 系统返回键事件，3秒内连续点两次退出
 var canBack = false;
-var delayOut = mm("do_timer");
+var delayOut = mm("do_Timer");
 delayOut.delay = 3000;
 delayOut.on("tick",function(){
 	delayOut.stop();
