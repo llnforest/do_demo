@@ -11,12 +11,35 @@
 				"type":"do_ALayout",
 				"views":[
 					{
-						"textAlign":"center",
-						"x":"319",
-						"y":"433",
-						"id":"do_Label_1",
-						"text":"新闻",
-						"type":"do_Label"
+						"templates":"source://view/news/newsTypeTabTemplate.ui",
+						"width":"630",
+						"x":"20",
+						"id":"do_SegmentView_tabs",
+						"type":"do_SegmentView"
+					},
+					{
+						"templates":"source://view/news/newsIndexSlideTemplate.ui",
+						"width":"750",
+						"y":"80",
+						"id":"do_SlideView_news",
+						"type":"do_SlideView",
+						"height":"1032"
+					},
+					{
+						"width":"80",
+						"x":"670",
+						"id":"do_ALayout_allTypes",
+						"type":"do_ALayout",
+						"views":[
+							{
+								"textAlign":"center",
+								"width":"80",
+								"fontSize":"24",
+								"id":"do_Label_1",
+								"text":"更多",
+								"type":"do_Label"
+							}
+						]
 					}
 				],
 				"height":"1112"
