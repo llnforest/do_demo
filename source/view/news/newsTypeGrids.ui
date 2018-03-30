@@ -22,8 +22,10 @@
 							{
 								"templates":"source://view/news/newsTypeGridTemplate.ui",
 								"width":"730",
+								"hSpacing":"0",
 								"id":"do_GridView_types",
 								"type":"do_GridView",
+								"numColumns":"4",
 								"height":"380"
 							}
 						],

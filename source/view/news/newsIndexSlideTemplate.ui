@@ -18,7 +18,7 @@
 							{
 								"isHeaderVisible":"true",
 								"isFooterVisible":"true",
-								"templates":"source://view/news/newsRowTemplate1.ui,source://view/news/newsRowTemplate1.ui",
+								"templates":"source://view/news/newsRowTemplate0.ui,source://view/news/newsRowTemplate1.ui",
 								"width":"750",
 								"id":"do_ListView_news",
 								"type":"do_ListView",

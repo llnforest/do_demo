@@ -6,11 +6,12 @@
 		"views":[
 			{
 				"width":"146",
-				"id":"do_ALayout_3",
+				"id":"do_ALayout_main",
 				"type":"do_ALayout",
 				"views":[
 					{
 						"border":"a0a0a0ff,1,5",
+						"textAlign":"center",
 						"width":"96",
 						"x":"25",
 						"y":"30",

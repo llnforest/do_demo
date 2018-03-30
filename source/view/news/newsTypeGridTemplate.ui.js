@@ -30,5 +30,5 @@ root.on("dataRefreshed",function(){
 
 //按下当前cell的时候，在当前页面中发出selectOneTab事件
 do_ALayout_root.on("touch",function(){
-	do_Page_fire("selectOneTab",{name:do_label_title.text});
+	do_Page.fire("selectOneTab",{name:do_Label_title.text});
 })

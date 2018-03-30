@@ -103,8 +103,7 @@ listdataTabs.addData(jsonTabs);
 
 //定义do_SlideView_news的数据Model
 var listdataSlides = mm("do_ListData");
-listdataTabs.addData(jsonSlides);
-
+listdataSlides.addData(jsonTabs);
 //在当前页面下订阅selectOneTab的事件
 do_Page.on("selectOneTab",function(data){
 	var _selectedIndex = -1;

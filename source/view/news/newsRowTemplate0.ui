@@ -36,34 +36,35 @@
 						"type":"do_ALayout",
 						"views":[
 							{
-								"maxHeight":"65",
+								"maxHeight":"62",
 								"width":"520",
 								"maxLines":"2",
-								"fontSize":"28",
+								"fontSize":"25",
 								"id":"do_Label_desc",
 								"type":"do_Label",
 								"fontColor":"A9A9A9FF",
-								"height":"-1"
+								"height":"-1",
+								"maxWidth":"520"
 							}
 						],
-						"height":"65"
+						"height":"75"
+					},
+					{
+						"maxHeight":"40",
+						"width":"520",
+						"x":"200",
+						"maxLines":"2",
+						"y":"20",
+						"fontSize":"32",
+						"id":"do_Label_title",
+						"type":"do_Label",
+						"fontColor":"555555FF",
+						"height":"40"
 					}
 				],
 				"height":"160"
-			},
-			{
-				"maxHeight":"40",
-				"x":"200",
-				"width":"520",
-				"y":"20",
-				"maxLines":"2",
-				"fontSize":"32",
-				"id":"do_Label_title",
-				"type":"do_Label",
-				"fontColor":"555555FF",
-				"height":"40"
 			}
 		],
-		"height":"1334"
+		"height":"160"
 	}
 }

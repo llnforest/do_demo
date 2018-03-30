@@ -2,12 +2,13 @@
  * @Author : llnforest
  * @Timestamp : 2018-03-27
  */
-var d1 = require("deviceone");
-var app = d1.sm("do_App");
+var deviceone = require("deviceone");
+var app = deviceone.sm("do_App");
+var demo =1;
 
 app.on("loaded", function () {
 	app.openPage({
-		source:"source://view/start.ui",
+		source:"source://view/index.ui",
 		statusBarState:"transparent",
 		animationType:"fade"
 	})
